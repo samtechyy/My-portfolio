@@ -147,3 +147,15 @@ footer ul li a {
   color: rgb(204, 115, 115);
 
 }
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  
+  .projects img {
+    width: 100%;
+  }
+}
+
