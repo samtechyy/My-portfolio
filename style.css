@@ -6,7 +6,7 @@
 } 
 
 body{
-  background-image: url(/images/download.jpg);
+  background-image: url(images/download.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -145,4 +145,5 @@ footer ul li {
 
 footer ul li a {
   color: rgb(204, 115, 115);
+
 }
