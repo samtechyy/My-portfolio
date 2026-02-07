@@ -1,0 +1,148 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body{
+  background-image: url(/images/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 { text-align: center;
+color: thistle;
+margin-top: 15px;
+}
+
+.container ul{
+  display:flex;
+  flex-direction: row;
+  margin: 1rem;
+  list-style-type: none;
+  
+}
+
+li a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: rgb(12, 190, 12);
+  font-size: 1.2rem;
+}
+
+#about h2 {
+  text-align: center;
+  color: rgb(232, 232, 240);
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+#about h2 + img {
+  width: 140px;
+  height: 150px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+#about p {
+  width: 60%;
+  margin: auto;
+  margin-top: 1rem;
+  color: rgb(240, 240, 240);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+#projects h2{
+  text-align: center;
+  color: rgb(12, 150, 178);
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#projects p {
+  text-align: center;
+  color: rgb(240, 240, 240);
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-decoration: dotted;
+}
+
+.project-container {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  display: flex;
+  gap: 2rem;
+ 
+}
+
+.rentals {
+   width: 140px;
+  height: 150px;
+  display: block;
+  margin: auto;
+  border-radius: 30%;
+  margin-top: 1rem;
+}
+  
+.h3 {
+  text-align: center;
+  color: rgb(240, 240, 240);
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+figcaption {
+  text-align: center;
+  color: rgb(240, 240, 240);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+figcaption a {
+  color: rgb(9, 245, 9);
+  text-decoration: none;
+}
+
+.project-container p {
+  display: inline;
+}
+
+ 
+.div {
+  text-align: center;
+  color: rgb(240, 240, 240);
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}
+
+.div h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(12, 150, 178);
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer ul {
+  display: grid;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 2rem;
+}
+ 
+footer ul li {
+  margin: 0.5rem 0;
+  color: rgb(240, 240, 240);
+}
+
+footer ul li a {
+  color: rgb(204, 115, 115);
+}
